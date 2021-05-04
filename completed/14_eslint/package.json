@@ -1,0 +1,25 @@
+{
+  "name": "14_eslint",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "bundle": "webpack --config webpack.config.js",
+    "lint": "eslint src",
+    "lintf": "eslint src --fix"
+  },
+  "author": "PastLeo",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.15.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "webpack": "^5.11.0",
+    "webpack-cli": "^4.2.0"
+  },
+  "dependencies": {
+    "typed.js": "^2.0.11"
+  }
+}

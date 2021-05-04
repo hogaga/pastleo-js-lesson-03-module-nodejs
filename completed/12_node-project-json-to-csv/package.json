@@ -1,0 +1,14 @@
+{
+  "name": "12_node-project-json-to-csv",
+  "version": "0.0.1",
+  "description": "Post JSON to CSV",
+  "main": "main.js",
+  "scripts": {
+    "main": "node main.js posts.json posts.csv"
+  },
+  "author": "PastLeo",
+  "license": "ISC",
+  "dependencies": {
+    "fast-csv": "^4.3.6"
+  }
+}
